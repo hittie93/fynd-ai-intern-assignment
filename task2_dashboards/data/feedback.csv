@@ -1,0 +1,36 @@
+Timestamp,Rating,Review,User_Response,Admin_Summary,Admin_Action,Gender,Age_Group,Action_Status,Name
+2025-12-14 20:46:55,4,The service was good but the wait time was a bit long.,"Error generating response: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.","Good service was provided, but the wait time was long.","**Implement a process to proactively provide customers with estimated wait times** (e.g., for their order, a table, or specific service) at the point of interaction.",Not Specified,Not Specified,Pending,Not Specified
+2025-12-14 20:47:50,4,The taste was so good and I the wait was bit longer,"Error generating response: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.","The taste was excellent, but the wait was a bit long.","**Action Item:** Implement a clear system to communicate estimated wait times to customers upon arrival.
+
+This addresses the ""wait was bit longer"" by managing customer expectations upfront, which can significantly improve their perception of the wait, especially since they already know the taste will be good.",Not Specified,Not Specified,Pending,Not Specified
+2025-12-14 20:49:05,3,"The taste was so good and I the wait was bit longer, and more than expected","Error generating response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",The customer enjoyed the good taste but found the wait time longer than expected.,"Implement a system to clearly and accurately communicate estimated wait times to customers upfront (e.g., at the hostess stand, via a waiting list app, or posted sign).",Not Specified,Not Specified,Pending,Not Specified
+2025-12-14 20:54:51,3,"The taste was so good and I the wait was bit longer, and more than expected","Thank you so much for taking the time to leave us a review! We're absolutely delighted to hear that you found the taste so good – that truly makes our day!
+
+We sincerely apologize, however, that your wait was longer than expected. We completely understand how frustrating it can be when service takes a bit more time, and that's certainly not the experience we want for our customers.
+
+Your feedback is truly valuable to us, and we appreciate you bringing this to our attention. We're always working to improve our speed and efficiency without compromising the quality you enjoyed.","Despite a longer-than-expected wait, the taste of the food was very good.","**Concrete Action Item:** Provide customers with an estimated wait time at the time of ordering or seating, and communicate any significant deviations from that estimate.",Not Specified,Not Specified,Pending,Not Specified
+2025-12-14 21:10:22,4,"Taste was so good , but time taking is more",⚠️ System Note: AI Service currently unavailable. Please check quotas.,⚠️ System Note: AI Service currently unavailable. Please check quotas.,⚠️ System Note: AI Service currently unavailable. Please check quotas.,Not Specified,Not Specified,Pending,Not Specified
+2025-12-14 21:53:01,4,"I have no idea why some people give bad reviews about this place. It goes to show you, you can pleas...",Thank you very much for your feedback! We have recorded it and will review it shortly.,[Analysis Pending],Review manually.,Male,18-24,Pending,Not Specified
+2025-12-14 21:54:44,4,"I have no idea why some people give bad reviews about this place. It goes to show you, you can pleas...",⚠️ System Note: AI Service currently unavailable. Please check quotas.,⚠️ System Note: AI Service currently unavailable. Please check quotas.,⚠️ System Note: AI Service currently unavailable. Please check quotas.,Male,18-24,,Not Specified
+2025-12-14 21:55:26,4,"I have no idea why some people give bad reviews about this place. It goes to show you, you can pleas...",⚠️ System Note: AI Service currently unavailable. Please check quotas.,⚠️ System Note: AI Service currently unavailable. Please check quotas.,⚠️ System Note: AI Service currently unavailable. Please check quotas.,Male,18-24,,Not Specified
+2025-12-15 07:53:52,4,Drop what you're doing and drive here. After I ate here I had to go back the next day for more. The...,"Dear [Customer's Name],
+
+Thank you so much for taking the time to share your feedback with us. We're thrilled to hear that our food left such a lasting impression on you that you had to come back for more the very next day! It's reviews like yours that make all our hard work worth it.
+
+We appreciate your enthusiasm and would love to have you back again soon. If you have any suggestions or ideas on how we can continue to exceed your expectations, please don't hesitate to reach out.
+
+Thank you again for your loyalty and support. We can't wait to welcome you back!
+
+Best regards,
+[Your Name]
+Senior Customer Success Manager","A customer raved about a restaurant, returning the next day for more food.",Implement 'Take-Home' containers for customers.,Male,18-24,,Sai Harsha
+2025-12-15 07:56:37,4,he oldish man who owns the store is as sweet as can be. Perhaps sweeter than the cookies or ice cr...,"Dear Jack,
+
+Thank you for taking the time to share your feedback with us. We're thrilled to hear that our store owner has made a positive impression on you - we couldn't agree more about his wonderful personality! We're glad you've enjoyed your experience with us.
+
+If there's anything we can do to make your next visit even sweeter, please don't hesitate to let us know. We're always looking for ways to improve and appreciate your feedback in helping us achieve that goal.
+
+Thank you again for your kind words, and we look forward to serving you better in the future.
+
+Best regards,
+The Customer Success Team",The customer praises the kind nature of an elderly store owner.,Emphasize staff member personality to enhance customer experience.,Male,18-24,,Jack
