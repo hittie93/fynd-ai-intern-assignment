@@ -50,10 +50,9 @@ class FeedbackService:
 
     @staticmethod
     def get_api_key() -> Optional[str]:
-        """Retrieves API key from Streamlit secrets or environment."""
-        if "GOOGLE_API_KEY" in st.secrets:
-            return st.secrets["GOOGLE_API_KEY"]
-        return os.environ.get("GOOGLE_API_KEY")
+        """Retrieves API key specifically from Streamlit secrets (Cloud Deployment)."""
+        # Per strict deployment instructions:
+        return st.secrets["GOOGLE_API_KEY"]
 
     @staticmethod
     def generate_ai_content(prompt: str, api_key: str) -> str:
@@ -75,7 +74,8 @@ class FeedbackService:
 
         # --- Fallback to Groq ---
         try:
-            groq_key = st.secrets.get("GROQ_API_KEY") or os.environ.get("GROQ_API_KEY")
+            # Fallback to Groq using strict st.secrets as per instructions
+            groq_key = st.secrets.get("GROQ_API_KEY", None)
             if groq_key:
                 client = Groq(api_key=groq_key)
                 completion = client.chat.completions.create(
